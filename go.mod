@@ -1,4 +1,4 @@
-module github.com/yanolab/stackdriver-zaplogger
+module github.com/levigross/stackdriver-zaplogger
 
 require (
 	cloud.google.com/go v0.36.0
