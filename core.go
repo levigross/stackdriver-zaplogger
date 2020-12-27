@@ -93,7 +93,7 @@ func (c *Core) toStackdriver(entry zapcore.Entry, fields []zapcore.Field) (loggi
 	return logging.Entry{
 		Timestamp: entry.Time,
 		Severity:  serverity,
-		LogName:   entry.LoggerName,
+		//LogName:   entry.LoggerName,
 		Payload:   payload,
 	}, nil
 }
